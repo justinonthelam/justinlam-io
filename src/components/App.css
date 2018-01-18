@@ -11,7 +11,91 @@ html {
 }
 
 .App {
-  font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  color: #333333;
+  font-family: "Roboto-light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #45434A;
   background-color: #f9f9f9;
+}
+
+a {
+  color: #45434A;
+}
+
+a:hover {
+  color: #FFA630;
+  text-decoration: underline;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 1024px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 66px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+nav .container {
+  max-width: 50%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  color: #090D15;
+  font-family: "Roboto-medium"
+}
+
+nav .logo:hover {
+  cursor: pointer;
+}
+
+nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .right .links a {
+  text-decoration: none;
+  margin: 0 22px 0 0;
+}
+
+nav .right .links .button:hover {
+  color: #fff;
+  text-decoration: none !important;
 }

@@ -6,10 +6,16 @@ class Home extends Component {
   render() {
     return (
       <div>
-        Hello World
+        <Body />
       </div>
     )
   }
 }
+
+const Body = () => (
+  <div className="container">
+    Hello
+  </div>
+)
 
 export default Home;
