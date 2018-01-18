@@ -14,7 +14,7 @@ class Home extends Component {
 
 const Body = () => (
   <div className="container">
-    Hello
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisi nisl, gravida eu scelerisque in, rhoncus ac nulla. Proin a ultricies ante. Etiam pellentesque nec sem in bibendum. Vestibulum gravida auctor nibh vel commodo. Suspendisse imperdiet vitae ex non viverra. Donec leo dui, aliquet eu lorem at, molestie imperdiet diam. Nulla eu hendrerit dolor.
   </div>
 )
 
