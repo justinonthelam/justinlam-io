@@ -10,6 +10,10 @@ html {
   overflow-y: scroll;
 }
 
+footer{
+  position: sticky;
+}
+
 .App {
   font-family: "Roboto-light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   color: #45434A;
