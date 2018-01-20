@@ -35,18 +35,34 @@ html {
 
 a {
   color: #45434A;
+  text-decoration: none;
 }
 
 a:hover {
   color: #FFA630;
-  text-decoration: underline;
+}
+
+.button {
+  background: #FFA630;
+  padding: 10px 20px;
+  color: #f9f9f9;
+  border-radius: 3px;
+  line-height: 1;
+  border: none;
+  font-size: 0.9em;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: rgb(211, 133, 30);
 }
 
 .container {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   max-width: 1024px;
+  min-width: 50%;
 }
 
 nav {
@@ -66,8 +82,10 @@ nav {
 }
 
 nav .container {
-  max-width: 50%;
-  width: 95%;
+  max-width: 1024px;
+  min-width: 50%;
+  width: 75%;
+  /* width: 95%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,13 +102,13 @@ nav a {
   text-decoration: none !important;
 }
 
-nav .logo {
-  font-size: 1.5em;
+nav h1 {
+  font-size: 1.7em;
   color: #090D15;
   font-family: "Roboto-medium"
 }
 
-nav .logo:hover {
+nav h1:hover {
   cursor: pointer;
 }
 

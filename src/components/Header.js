@@ -12,26 +12,30 @@ class Header extends Component{
   }
 }
 
-const Nav = () => (
-  <nav>
-    <div className="container">
-      <div className="left">
-        <Logo />
-      </div>
-      <div className="right">
-        <NavLinks />
-      </div>
-    </div>
-  </nav>
-)
+class Nav extends Component{
+  render(){
+    return(
+      <nav>
+        <div className="container">
+          <div className="left">
+            <Logo />
+          </div>
+          <div className="right">
+            <NavLinks />
+          </div>
+        </div>
+      </nav>
+    )
+  }
+}
 
 class Logo extends Component{
   render(){
     return(
       <Link to="/">
-        <div className="logo">
+        <h1>
           Justin Lam
-        </div>
+        </h1>
       </Link>
     )
   }
@@ -41,10 +45,10 @@ class NavLinks extends Component{
   render(){
     return(
       <div className="links">
-        <Link to="/about">About</Link>
-        <a href="#" target="_blank" rel="noopener noreferrer">Resume</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Portfolio</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Blog</a>
+        <a href="justin-lam-resume.pdf" target="_blank">Resume</a>      
+        <Link to="/contact">Contact</Link>
+        {/* <a href="#" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Blog</a> */}
       </div>
     )
   }
